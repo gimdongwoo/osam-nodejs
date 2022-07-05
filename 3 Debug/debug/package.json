@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "fs": "cross-env FILE_PATH=./hello.txt node fs.js",
+    "debug": "cross-env FILE_PATH=./hello.txt node --inspect-brk fs.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
